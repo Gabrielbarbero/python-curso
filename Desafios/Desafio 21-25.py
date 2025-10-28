@@ -29,7 +29,11 @@ else:
     print("nao tenho informações sobre a capital desse pais")
 '''
 #desafio 22.1
+
 '''
+=======
+
+>>>>>>> 16d65b316f2ad4c33badc5cb60cc2ca8a9d00c5f
 paisCapitais = {
     "brasil": "brasilia",
     "estados unidos": "whasington",
@@ -42,6 +46,7 @@ escolha = input("Escolha um pais para saber a capital").lower()
 if escolha in paisCapitais:
     print(f"{escolha}, {paisCapitais[escolha]}")
 else:
+<<<<<<< HEAD
     print("tem nao, vaza")
 '''
 
@@ -54,3 +59,4 @@ for nome in amigos1:
     if nome in amigos2:
         print(nome)
 '''
+
