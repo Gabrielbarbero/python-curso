@@ -60,3 +60,20 @@ for nome in amigos1:
         print(nome)
 '''
 
+#desafio 24
+'''
+def elevado():
+    number = float(input("digite um numero:"))
+    potencia = number **2 
+    print(potencia)
+elevado()
+'''
+
+#desafio 25
+
+def soma():
+    n1 = float(input("de o valor 1 "))
+    n2 = float(input("de o valor 2 "))
+    print(n1 + n2)
+
+soma()
