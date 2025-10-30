@@ -31,9 +31,6 @@ else:
 #desafio 22.1
 
 '''
-=======
-
->>>>>>> 16d65b316f2ad4c33badc5cb60cc2ca8a9d00c5f
 paisCapitais = {
     "brasil": "brasilia",
     "estados unidos": "whasington",
@@ -46,7 +43,6 @@ escolha = input("Escolha um pais para saber a capital").lower()
 if escolha in paisCapitais:
     print(f"{escolha}, {paisCapitais[escolha]}")
 else:
-<<<<<<< HEAD
     print("tem nao, vaza")
 '''
 
@@ -60,3 +56,21 @@ for nome in amigos1:
         print(nome)
 '''
 
+#desafio 24
+'''
+def elevado():
+    number = float(input("digite um numero:"))
+    potencia = number **2 
+    print(potencia)
+elevado()
+'''
+
+#desafio 25
+'''
+def soma():
+    n1 = float(input("de o valor 1 "))
+    n2 = float(input("de o valor 2 "))
+    print(n1 + n2)
+
+soma()
+'''
