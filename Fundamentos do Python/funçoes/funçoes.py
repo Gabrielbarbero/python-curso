@@ -20,4 +20,4 @@ def repetir(): #pergunta se quer perguntar outra nota
             else:
                 print("fatalError: coloque um valor Valido (sim/não)")
 def alunosMedia(): #calcula a media da sala
-    print(f"A media dos alunos é {sum(notas) / len(notas):.2f}")
+    print(f"A media dos {len(notas)} alunos é {sum(notas) / len(notas):.2f}")

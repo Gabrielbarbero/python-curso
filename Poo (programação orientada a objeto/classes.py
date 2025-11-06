@@ -22,7 +22,7 @@ carro2m =input("qual o modelo do carro: ")
 caracteristicasCarro2 = carro(carro2,carro2m)
 caracteristicasCarro2.corCarro()
 caracteristicasCarro2.modeloCarro()
-'''
+
 
 class formas:
     def __init__(self,nome,vertices,arestas,):
@@ -63,3 +63,4 @@ class formas:
 nome1 = input("qual o nome da forma geometrica: ").lower()
 infoForma = formas(nome1,0,0)
 infoForma.valorNome()
+'''
